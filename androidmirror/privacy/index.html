@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AndroidMirror Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=IBM+Plex+Sans+Arabic:wght@400;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: one readable column, a language switch at the top, a data table, then short sections. */
+:root {
+  --bg: #F5F7FA; --surface: #FFFFFF; --fg: #17202B; --muted: #566273; --line: #D9E0E8; --accent: #2457C5; --accent-soft: #E7EEFC;
+  --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --arabic: "IBM Plex Sans Arabic", "Segoe UI", Tahoma, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0F1115; --surface: #171A21; --fg: #E8EAED; --muted: #9AA3AF; --line: #2A2F3A; --accent: #7EB0FF; --accent-soft: #1C2433; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0F1115; --surface: #171A21; --fg: #E8EAED; --muted: #9AA3AF; --line: #2A2F3A; --accent: #7EB0FF; --accent-soft: #1C2433; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 16px/1.65 var(--body); }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 40px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: flex; flex-direction: column; gap: 28px; }
+header { display: flex; flex-direction: column; gap: 10px; }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 700; color: var(--accent); letter-spacing: .3px; font-size: 14px; text-transform: uppercase; }
+.brand svg { width: 28px; height: 28px; }
+h1 { font-size: clamp(28px, 5vw, 38px); line-height: 1.15; margin: 0; text-wrap: balance; }
+h2 { font-size: 20px; margin: 0 0 6px; text-wrap: balance; }
+.meta { color: var(--muted); font-size: 14px; margin: 0; }
+.langs { display: flex; gap: 8px; }
+.langs button { font: 600 14px var(--body); border: 1px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+.langs button[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
+.langs button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.lead { background: var(--accent-soft); border-radius: 14px; padding: 18px 20px; margin: 0; }
+section { display: flex; flex-direction: column; gap: 8px; }
+section p, section ul { margin: 0; max-width: 68ch; }
+ul { padding-inline-start: 22px; display: flex; flex-direction: column; gap: 6px; }
+.table { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: 14.5px; }
+th, td { text-align: start; padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+th { font-size: 12px; text-transform: uppercase; letter-spacing: .6px; color: var(--muted); }
+code { font-family: var(--mono); font-size: .9em; }
+.contact { font-family: var(--mono); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 2px 8px; user-select: all; }
+[lang="ar"] { font-family: var(--arabic); }
+[lang="ar"] .brand { letter-spacing: 0; }
+footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><rect x="21" y="11" width="8" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9 24h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      AndroidMirror
+    </div>
+    <div class="langs" role="group" aria-label="Language">
+      <button type="button" id="btn-en" aria-pressed="true">English</button>
+      <button type="button" id="btn-ar" aria-pressed="false">العربية</button>
+    </div>
+  </header>
+
+  <article id="en" lang="en" dir="ltr" class="wrap" style="padding:0;gap:28px">
+    <div>
+      <h1>Privacy Policy</h1>
+      <p class="meta">AndroidMirror for phones and AndroidMirror for TV · Effective 8 November 2026</p>
+    </div>
+    <p class="lead">AndroidMirror connects your own phone to your own TV on your home Wi‑Fi. Everything it handles goes directly between those devices. There are no accounts, no ads, no analytics, and no servers of ours: we never receive your data, except a crash report if you choose to email it to us.</p>
+
+    <section>
+      <h2>Who we are</h2>
+      <p>AndroidMirror is made by F. Alhejaili, an independent developer. This policy covers the AndroidMirror app (<code>com.alhejaili.androidmirror</code>) on phones and on Android TV.</p>
+    </section>
+
+    <section>
+      <h2>What the apps handle, and why</h2>
+      <p>Each item is used only for the feature you turn on, and only travels between your paired devices.</p>
+      <div class="table">
+        <table>
+          <thead><tr><th>Data</th><th>Used for</th><th>Kept where</th></tr></thead>
+          <tbody>
+            <tr><td>Photos, videos and files you choose</td><td>Sending to the TV, the private gallery, the photo frame, TV files</td><td>On your devices only. The private gallery is encrypted on the device.</td></tr>
+            <tr><td>Screen picture and app sound</td><td>Mirroring the phone to the TV, showing the TV on the phone, recording a TV clip</td><td>Not kept, unless you save a screenshot or clip</td></tr>
+            <tr><td>Camera picture</td><td>Showing the phone's camera on the TV, when you start it</td><td>Not kept</td></tr>
+            <tr><td>Call and message alerts (phone)</td><td>Showing who is calling or messaging on the TV, if you turn on Notification access</td><td>Not kept</td></tr>
+            <tr><td>What's playing on the TV</td><td>Title and artwork on your phone, if you allow Notification access on the TV</td><td>Not kept</td></tr>
+            <tr><td>The TV's app list and the app on screen</td><td>Opening TV apps from the phone; Screen time minutes and limits, if you turn Screen time on</td><td>App names and minutes per day, on the TV</td></tr>
+            <tr><td>Text you type, clipboard, notes, reminders, quick actions</td><td>Typing on the TV, shared clipboard, family notes, reminders, routines</td><td>On your devices</td></tr>
+            <tr><td>Family gallery photos and videos</td><td>Photos and videos family members add for everyone linked to the TV to look at</td><td>On the TV only. Phones show them without saving them; they are deleted after the time parents choose.</td></tr>
+            <tr><td>Crash report (only if you send it)</td><td>Fixing the app after it stops. It has the device model, Android and app versions, the last screens opened and the error, plus any note you write. You see it before it is sent.</td><td>On the device until you send or delete it. If you email it, we keep the email only as long as needed to fix the problem.</td></tr>
+            <tr><td>A random device ID and device names</td><td>Pairing your phone and TV and recognising each other later</td><td>On your devices</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Permissions</h2>
+      <ul>
+        <li><strong>Accessibility service (TV)</strong>: lets your paired phone press keys, tap and type on the TV, take a screenshot when you ask, run the remote buttons you set up in TV tools, show Screen off, and, if Screen time is on, note which app is open. Key presses are never stored or sent. The TV app explains this and asks before it is turned on.</li>
+        <li><strong>Screen capture, microphone permission</strong>: Android requires them to send the screen and the sound apps are playing. The microphone itself is not recorded.</li>
+        <li><strong>Camera, photos and videos, Bluetooth, notifications</strong>: each is asked for only when you use the feature that needs it.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>How data travels</h2>
+      <p>Your phone and TV pair with a 6‑digit code and then talk over an end‑to‑end encrypted connection on your local network. The optional web remote lets a browser on the same Wi‑Fi control the TV after you type the code shown on the TV. It uses plain HTTP on your home network, so turn it on only on networks you trust. Voice commands use your phone's speech recognition service (for example Google's), under that provider's terms; AndroidMirror receives only the recognised text.</p>
+    </section>
+
+    <section>
+      <h2>Sharing</h2>
+      <p>We do not sell, share or transfer your data to anyone. We have no servers that receive it. A crash report reaches us only if you choose to send it, by email or another app you pick. App updates are delivered by Google Play, which handles its own data under Google's privacy policy.</p>
+    </section>
+
+    <section>
+      <h2>Keeping and deleting data</h2>
+      <p>Data stays on your devices until you delete it in the app, clear the app's storage, or uninstall it. Backup files you create with Settings backup or Gallery backup are protected with your password and stay wherever you save them.</p>
+    </section>
+
+    <section>
+      <h2>Children and families</h2>
+      <p>AndroidMirror is meant for adults. Parents can mark a phone as a kid's phone to set TV screen-time limits and reminders; that information stays on the family's own TV and phones.</p>
+    </section>
+
+    <section>
+      <h2>Changes</h2>
+      <p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Questions about privacy: <span class="contact">fh.alhejaili@gmail.com</span></p>
+    </section>
+  </article>
+
+  <article id="ar" lang="ar" dir="rtl" class="wrap" style="padding:0;gap:28px" hidden>
+    <div>
+      <h1>سياسة الخصوصية</h1>
+      <p class="meta">AndroidMirror للهواتف و AndroidMirror للتلفاز · سارية من 8 نوفمبر 2026</p>
+    </div>
+    <p class="lead">يربط AndroidMirror هاتفك بتلفازك على شبكة Wi‑Fi المنزلية. كل ما يتعامل معه ينتقل مباشرة بين أجهزتك. لا توجد حسابات ولا إعلانات ولا تحليلات ولا خوادم لنا: لا نستلم بياناتك أبدًا، إلا تقرير عطل إذا اخترت إرساله إلينا بالبريد.</p>
+
+    <section>
+      <h2>من نحن</h2>
+      <p>تطبيق AndroidMirror من تطوير F. Alhejaili، مطوّر مستقل. تشمل هذه السياسة تطبيق AndroidMirror (<code>com.alhejaili.androidmirror</code>) على الهواتف وعلى Android TV.</p>
+    </section>
+
+    <section>
+      <h2>البيانات التي يتعامل معها التطبيق ولماذا</h2>
+      <p>يُستخدم كل عنصر فقط للميزة التي تفعّلها، وينتقل فقط بين أجهزتك المقترنة.</p>
+      <div class="table">
+        <table>
+          <thead><tr><th>البيانات</th><th>الاستخدام</th><th>مكان الحفظ</th></tr></thead>
+          <tbody>
+            <tr><td>الصور والفيديوهات والملفات التي تختارها</td><td>الإرسال إلى التلفاز، المعرض الخاص، إطار الصور، ملفات التلفاز</td><td>على أجهزتك فقط. المعرض الخاص مشفّر على الجهاز.</td></tr>
+            <tr><td>صورة الشاشة وصوت التطبيقات</td><td>عرض الهاتف على التلفاز، عرض التلفاز على الهاتف، تسجيل مقطع من التلفاز</td><td>لا تُحفظ، إلا إذا حفظت لقطة أو مقطعًا</td></tr>
+            <tr><td>صورة الكاميرا</td><td>عرض كاميرا الهاتف على التلفاز عندما تبدأ ذلك</td><td>لا تُحفظ</td></tr>
+            <tr><td>تنبيهات المكالمات والرسائل (الهاتف)</td><td>عرض المتصل أو المرسل على التلفاز، إذا فعّلت الوصول إلى الإشعارات</td><td>لا تُحفظ</td></tr>
+            <tr><td>ما يُعرض الآن على التلفاز</td><td>العنوان والصورة على هاتفك، إذا سمحت بالوصول إلى الإشعارات على التلفاز</td><td>لا تُحفظ</td></tr>
+            <tr><td>قائمة تطبيقات التلفاز والتطبيق المفتوح</td><td>فتح تطبيقات التلفاز من الهاتف؛ دقائق وقت الشاشة والحدود إذا فعّلت وقت الشاشة</td><td>أسماء التطبيقات والدقائق اليومية، على التلفاز</td></tr>
+            <tr><td>النص الذي تكتبه، الحافظة، الملاحظات، التذكيرات، الإجراءات السريعة</td><td>الكتابة على التلفاز، الحافظة المشتركة، ملاحظات العائلة، التذكيرات</td><td>على أجهزتك</td></tr>
+            <tr><td>صور وفيديوهات معرض العائلة</td><td>صور وفيديوهات يضيفها أفراد العائلة ليشاهدها كل من يرتبط بالتلفاز</td><td>على التلفاز فقط. تعرضها الجوالات دون حفظها، وتُحذف بعد المدة التي يختارها الوالدان.</td></tr>
+            <tr><td>تقرير العطل (فقط إذا أرسلته)</td><td>إصلاح التطبيق بعد توقفه. يحتوي على طراز الجهاز وإصداري أندرويد والتطبيق وآخر الشاشات المفتوحة والخطأ، وأي ملاحظة تكتبها. تراه قبل إرساله.</td><td>على الجهاز حتى ترسله أو تحذفه. إذا أرسلته بالبريد نحتفظ بالرسالة فقط بقدر ما يلزم لإصلاح المشكلة.</td></tr>
+            <tr><td>معرّف عشوائي للجهاز وأسماء الأجهزة</td><td>إقران الهاتف والتلفاز والتعرّف على بعضهما لاحقًا</td><td>على أجهزتك</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>الأذونات</h2>
+      <ul>
+        <li><strong>خدمة إمكانية الوصول (التلفاز)</strong>: تتيح لهاتفك المقترن الضغط على الأزرار والنقر والكتابة على التلفاز، والتقاط لقطة عندما تطلبها، وتنفيذ أزرار الريموت التي تضبطها في أدوات التلفاز، وإظهار وضع الشاشة المطفأة، ومعرفة التطبيق المفتوح إذا كان وقت الشاشة مفعّلًا. لا تُحفظ ضغطات الأزرار ولا تُرسل. يشرح تطبيق التلفاز ذلك ويطلب موافقتك قبل تفعيلها.</li>
+        <li><strong>التقاط الشاشة، إذن الميكروفون</strong>: يتطلبهما أندرويد لإرسال الشاشة وصوت التطبيقات. لا يتم تسجيل الميكروفون نفسه.</li>
+        <li><strong>الكاميرا، الصور والفيديو، البلوتوث، الإشعارات</strong>: يُطلب كل منها فقط عند استخدام الميزة التي تحتاجه.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>كيف تنتقل البيانات</h2>
+      <p>يقترن هاتفك وتلفازك برمز من 6 أرقام، ثم يتواصلان عبر اتصال مشفّر من طرف إلى طرف على شبكتك المحلية. جهاز التحكم عبر المتصفح (اختياري) يتيح لمتصفح على نفس الشبكة التحكم بالتلفاز بعد كتابة الرمز الظاهر على التلفاز، ويستخدم HTTP عاديًا على شبكتك المنزلية، لذا فعّله فقط على شبكات تثق بها. الأوامر الصوتية تستخدم خدمة التعرف على الكلام في هاتفك (مثل خدمة Google) وفق شروط مزوّدها، ولا يستلم AndroidMirror إلا النص.</p>
+    </section>
+
+    <section>
+      <h2>المشاركة</h2>
+      <p>لا نبيع بياناتك ولا نشاركها ولا ننقلها إلى أي أحد، وليس لدينا خوادم تستقبلها. لا يصلنا تقرير العطل إلا إذا اخترت إرساله بالبريد أو بتطبيق آخر تختاره. تصل تحديثات التطبيق عبر Google Play الذي يتعامل مع بياناته وفق سياسة خصوصية Google.</p>
+    </section>
+
+    <section>
+      <h2>حفظ البيانات وحذفها</h2>
+      <p>تبقى البيانات على أجهزتك حتى تحذفها من التطبيق أو تمسح بيانات التطبيق أو تلغي تثبيته. ملفات النسخ الاحتياطي التي تنشئها محمية بكلمة مرورك وتبقى حيث تحفظها.</p>
+    </section>
+
+    <section>
+      <h2>الأطفال والعائلة</h2>
+      <p>التطبيق موجّه للبالغين. يمكن للوالدين تحديد هاتف كهاتف طفل لوضع حدود وقت الشاشة والتذكيرات على التلفاز، وتبقى هذه المعلومات على تلفاز العائلة وهواتفها.</p>
+    </section>
+
+    <section>
+      <h2>التغييرات</h2>
+      <p>إذا تغيّرت هذه السياسة فستُنشر النسخة الجديدة في هذه الصفحة بتاريخ سريان جديد.</p>
+    </section>
+
+    <section>
+      <h2>التواصل</h2>
+      <p>للأسئلة عن الخصوصية: <span class="contact" dir="ltr">fh.alhejaili@gmail.com</span></p>
+    </section>
+  </article>
+
+  <footer>© 2026 F. Alhejaili · AndroidMirror</footer>
+</div>
+
+<script>
+(function () {
+  var en = document.getElementById('en'), ar = document.getElementById('ar');
+  var be = document.getElementById('btn-en'), ba = document.getElementById('btn-ar');
+  function show(lang) {
+    var isAr = lang === 'ar';
+    en.hidden = isAr; ar.hidden = !isAr;
+    be.setAttribute('aria-pressed', String(!isAr)); ba.setAttribute('aria-pressed', String(isAr));
+    document.documentElement.lang = isAr ? 'ar' : 'en';
+  }
+  be.addEventListener('click', function () { show('en'); if (location.hash) history.replaceState(null, '', ' '); });
+  ba.addEventListener('click', function () { show('ar'); location.hash = 'ar'; });
+  show(location.hash === '#ar' ? 'ar' : 'en');
+  window.addEventListener('hashchange', function () { show(location.hash === '#ar' ? 'ar' : 'en'); });
+})();
+</script>
+
+</body>
+</html>

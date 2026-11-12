@@ -1,0 +1,18 @@
+:root { --bg: #F5F7FA; --surface: #FFFFFF; --fg: #17202B; --muted: #566273; --line: #D9E0E8; --accent: #2457C5; --accent-soft: #E7EEFC; --on-accent: #FFFFFF;
+  --body: "IBM Plex Sans", "IBM Plex Sans Arabic", "Segoe UI", system-ui, sans-serif; color-scheme: light; }
+@media (prefers-color-scheme: dark) { :root { --bg: #0F1115; --surface: #171A21; --fg: #E8EAED; --muted: #9AA3AF; --line: #2A2F3A; --accent: #7EB0FF; --accent-soft: #1C2433; --on-accent: #0B1220; color-scheme: dark; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 var(--body); }
+.wrap { max-width: 640px; margin: 0 auto; padding: 40px max(16px, env(safe-area-inset-left)) 56px max(16px, env(safe-area-inset-right)); display: flex; flex-direction: column; gap: 20px; }
+.brand { font-weight: 700; color: var(--accent); letter-spacing: .4px; font-size: 13px; text-transform: uppercase; }
+h1 { font-size: clamp(26px, 6vw, 34px); line-height: 1.2; margin: 0; text-wrap: balance; }
+h2 { font-size: 17px; margin: 0; }
+p { margin: 0; color: var(--muted); }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 18px; display: flex; flex-direction: column; gap: 12px; }
+.btn { display: block; text-align: center; text-decoration: none; font-weight: 700; padding: 14px 18px; border-radius: 999px; background: var(--accent); color: var(--on-accent); }
+.btn.soft { background: var(--accent-soft); color: var(--accent); }
+.btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.small { font-size: 13px; }
+[hidden] { display: none !important; }
+footer { font-size: 13px; color: var(--muted); }
+footer a { color: inherit; }

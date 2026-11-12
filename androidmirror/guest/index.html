@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>AndroidMirror guest</title>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<main class="wrap">
+<span class="brand">AndroidMirror · Guest</span>
+<h1>Control <span id="tv-name">your TV</span> from this phone</h1>
+<p id="broken" class="card" hidden>This link is incomplete. Scan the code on the TV screen again.</p>
+<section id="android" class="card" hidden>
+  <h2>Android</h2>
+  <p>Get the app, then open it: it links to this TV by itself.</p>
+  <a id="play" class="btn" href="https://play.google.com/store/apps/details?id=com.alhejaili.androidmirror">Get it on Google Play</a>
+  <a id="open" class="btn soft" href="#">I have the app: open it</a>
+  <p class="small">If the app doesn't open, update it on Google Play.</p>
+</section>
+<section id="other" class="card" hidden>
+  <h2>iPhone or any other phone</h2>
+  <p>Use the browser remote, on the same Wi-Fi as the TV.</p>
+  <a id="web" class="btn soft" href="#" hidden>Open the browser remote</a>
+  <p id="no-web" class="small">The browser remote is off on this TV. Ask someone with the Android app to turn it on, then scan again.</p>
+</section>
+<script src="../qr.js"></script>
+<footer><a href="../../androidmirror/privacy/">Privacy policy</a> · AndroidMirror</footer>
+</main>
+</body>
+</html>

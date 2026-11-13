@@ -5,7 +5,7 @@
       "namespace": "android_app",
       "package_name": "com.alhejaili.androidmirror",
       "sha256_cert_fingerprints": [
-        "REPLACE_WITH_APP_SIGNING_KEY_SHA256_FROM_PLAY_CONSOLE"
+           "29:78:5C:B7:3B:EC:29:2A:AD:91:CE:30:FD:83:18:12:B3:E2:E2:08:8B:77:E9:FE:44:52:09:75:39:5C:FB:78"
       ]
     }
   }
